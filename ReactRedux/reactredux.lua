@@ -28,9 +28,9 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ]]
 
-_addon.name = 'React'
-_addon.author = 'Sammeh'
-_addon.version = '1.6.0.0'
+_addon.name = 'ReactRedux'
+_addon.author = 'Sammeh,bangerang'
+_addon.version = '0.1'
 _addon.command = 'react'
 
 -- 1.3.0 changing map.lua to job specific
@@ -52,6 +52,7 @@ _addon.command = 'react'
 
 -- 1.6.0.0 Add "ActorID" as global variable for use in custom commands
 -- Planned: 1.6.0.1 add in Global commands:   if (Mob specific) then react;  elseif (global) then react; else - no react
+-- 0.1 Removed actor condition, 'cleaned up' addon chat. stop yelling at me. (bangerang)
 
 require 'tables'
 require 'sets'
