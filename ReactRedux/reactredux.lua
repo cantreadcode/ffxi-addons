@@ -52,7 +52,7 @@ _addon.command = 'react'
 
 -- 1.6.0.0 Add "ActorID" as global variable for use in custom commands
 -- Planned: 1.6.0.1 add in Global commands:   if (Mob specific) then react;  elseif (global) then react; else - no react
--- 0.1 Removed actor condition, 'cleaned up' addon chat. stop yelling at me. (bangerang)
+-- 0.1 Renamed ReactRedux. New version standard. Removed actor condition. 'Cleaned up' addon chat. Stop yelling at me. (bangerang)
 
 require 'tables'
 require 'sets'
